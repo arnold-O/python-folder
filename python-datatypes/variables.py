@@ -15,3 +15,12 @@ x,y,z = 1,2,"Play"
 
 # If variable have same value
 m=o=p="Sensational"
+
+### Boolean (True / False)
+
+is_student = True
+
+
+#Changing a variable value
+level = 1
+level = 2
