@@ -31,3 +31,10 @@ if a<=b:
      print("a is less than b")
 else:
      print("b is less than a")
+
+
+c = int(input("Enter a number: "))
+if c<15:
+    print("less than 15")
+else:
+    print("greater than 15")
