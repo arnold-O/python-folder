@@ -4,6 +4,8 @@
 
 #operators used are either relational or logical
 
+
+#relational
 # < less than
 # > greater thn
 # <= less than or equal to
@@ -16,8 +18,16 @@
 # and = AND
 # not = NOT
 
-
 #the above are the relational and logical operators
 
+# These operators resolve to boolean , that is true or false
 
+# examples
 
+b = 12
+a =  5
+
+if a<=b:
+     print("a is less than b")
+else:
+     print("b is less than a")
