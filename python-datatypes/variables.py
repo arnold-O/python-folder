@@ -24,3 +24,5 @@ is_student = True
 #Changing a variable value
 level = 1
 level = 2
+
+print("Hello from the main page")
