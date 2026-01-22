@@ -61,11 +61,44 @@ else:
 
 # Check if a citizen can cast a vote if his age is greater or equal to 18
 
-age = int(input("Kindly input your age "))
+#age = int(input("Kindly input your age "))
 
 
-if age >= 18:
-    print("you are eligible to vote, kindly exercise your civic right")
-else:
-    print("Please note that you cannot vote, see you when you are 18")
+#if age >= 18:
+#    print("you are eligible to vote, kindly exercise your civic right")
+#else:
+#    print("Please note that you cannot vote, see you when you are 18")
 
+##***************************Second Exercise**********************
+
+#check if a student has passed or failed. by taking marks in 3 subjects
+
+#phy = int(input("enter your physics score "))
+#math = int(input("enter your math score "))
+#chem = int(input("enter your chemistry score "))
+
+#if phy >= 45 and math >= 45 and chem >= 45:
+#    print("You Passed")
+#else:
+#    print("you failed")
+
+#Check if a person or user has Admin Access
+
+
+#username = input("Enter your user name please ")
+
+#if username == "john" or username == "smith":
+#    print("welcome, Here are dashboard for Admin User access")
+#else:
+##    print("You do not have admin access, kindly proceed with ordinary user duties")
+
+
+#Check if a given case character is vowel or consonant
+
+#vowels = "aeiou"
+#sod = input("Enter a character in the alphabet to check whether is a vowel or consonant ")
+
+#if sod in vowels:
+#    print("Letter is among the vowel Letters")
+#else:
+#    print("Letter is a consonant")
