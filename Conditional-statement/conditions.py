@@ -108,9 +108,9 @@ else:
 
 #check who is eldest between 3 friends
 
-user1 = int(input("Kindly enter your age user 1 "))
-user2 = int(input("Kindly enter your age user 2 "))
-user3 = int(input("Kindly enter your age user 3 "))
+#user1 = float(input("Kindly enter your age user 1 "))
+#user2 = float(input("Kindly enter your age user 2 "))
+#user3 = float(input("Kindly enter your age user 3 "))
 
 #if user1 > user2 and user1 > user3:
 #    print("User 1 is the eldest")
@@ -118,3 +118,20 @@ user3 = int(input("Kindly enter your age user 3 "))
 #    print("User 2 is the eldest")
 #else:
 #    print ("User 3 is eldest")
+
+
+# Discounted Amount
+
+am = int(input("Enter the Amount "))
+
+#if am <= 1000 :
+#    discount = am * (10/100)
+#elif  1000 < am <= 5000 :
+#    discount = am * (20/100)
+#elif  5000 < am <= 10000 :
+#    discount = am * (30/100)
+#else:
+#    discount = am * (50/100)
+
+#discounted_amount = am - discount
+#print(discounted_amount)
