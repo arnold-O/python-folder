@@ -33,8 +33,39 @@ else:
      print("b is less than a")
 
 
-c = int(input("Enter a number: "))
-if c<15:
-    print("less than 15")
+#c = int(input("Enter a number: "))
+#if c<15:
+#    print("less than 15")
+#else:
+#    print("greater than 15")
+
+
+#Exmples
+# Find the numbers between 2 numbers
+
+#d = int(input("enter first number "))
+#e = int(input("enter Second number "))
+
+#if d - e > 0:
+#    print(d - e)
+#else:
+#    print(e - d)
+
+# Check a number is ODD or EVEN
+#n = int(input("Enter a number "))
+
+#if n%2 == 0:
+#    print("This is even Number")
+#else:
+#    print("This is an Odd number")
+
+# Check if a citizen can cast a vote if his age is greater or equal to 18
+
+age = int(input("Kindly input your age "))
+
+
+if age >= 18:
+    print("you are eligible to vote, kindly exercise your civic right")
 else:
-    print("greater than 15")
+    print("Please note that you cannot vote, see you when you are 18")
+
