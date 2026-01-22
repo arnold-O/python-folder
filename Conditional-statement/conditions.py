@@ -102,3 +102,19 @@ else:
 #    print("Letter is among the vowel Letters")
 #else:
 #    print("Letter is a consonant")
+
+
+#************************* Third Exercise***********************
+
+#check who is eldest between 3 friends
+
+user1 = int(input("Kindly enter your age user 1 "))
+user2 = int(input("Kindly enter your age user 2 "))
+user3 = int(input("Kindly enter your age user 3 "))
+
+#if user1 > user2 and user1 > user3:
+#    print("User 1 is the eldest")
+#elif user2 > user3:
+#    print("User 2 is the eldest")
+#else:
+#    print ("User 3 is eldest")
