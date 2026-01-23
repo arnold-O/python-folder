@@ -28,3 +28,17 @@ for i in range(5):
     if i == 2:
         continue
     print(i)
+
+#Match-case (Python 3.10+)
+
+#Like a switch statement.
+
+command = "start"
+
+match command:
+    case "start":
+        print("Starting")
+    case "stop":
+        print("Stopping")
+    case _:
+        print("Unknown command")
