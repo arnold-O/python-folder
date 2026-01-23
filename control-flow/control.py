@@ -42,3 +42,16 @@ match command:
         print("Stopping")
     case _:
         print("Unknown command")
+
+#Exception control flow (try / except)
+
+#Handle errors gracefully.
+
+try:
+    x = int(input("Enter number: "))
+except ValueError:
+    print("Not a number")
+else:
+    print("Success")
+finally:
+    print("Done")
