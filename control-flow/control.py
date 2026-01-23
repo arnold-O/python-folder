@@ -16,3 +16,15 @@ count = 0
 while count < 5:
     print(count)
     count += 1
+
+#Loop control statements
+#break – exit loop immediately
+for i in range(10):
+    if i == 5:
+        break
+
+#continue – skip to next iteration
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
