@@ -71,20 +71,59 @@
 
 # iii. check if a number is palindrome
 
-num = int(input("Enter a number "))
-b = num
-original = 0
+#num = int(input("Enter a number "))
+#b = num
+#original = 0
 
-while num > 0:
-    r = num % 10
-    num = num // 10
-    original = original * 10 + r
+#while num > 0:
+#    r = num % 10
+#    num = num // 10
+#    original = original * 10 + r
 
-print(original)
-if original == b:
-    print("This is a palindrome")
-else:
-    print("This is not a palindrome")
+#print(original)
+#if original == b:
+#    print("This is a palindrome")
+#else:
+#    print("This is not a palindrome")
+
+
+
+# Student Exercises
+
+#i Add the numbers up
+
+#total_numbers = int(input("Enter a total number of numbers "))
+
+#sum_val = 0
+#while total_numbers > 0:
+#    series = int(input("Enter numbers "))
+#    sum_val = sum_val + series
+#    total_numbers = total_numbers - 1
+#print(sum_val)
+
+
+# Find the sum of negative and positive numbers
+total_numbers = int(input("Enter a total number of numbers "))
+psum = 0
+nsum = 0
+
+while total_numbers > 0:
+    series = int(input("Enter a series: "))
+    total_numbers = total_numbers - 1
+    if series > 0:
+        psum += series
+    else:
+        nsum += series
+
+print("positive sum amount to ", psum, " and negative sum amount to ", nsum)
+
+
+
+
+
+
+
+
 
 #for loop (iterate over something)
 
