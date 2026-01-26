@@ -122,7 +122,7 @@ else:
 
 # Discounted Amount
 
-am = int(input("Enter the Amount "))
+#am = int(input("Enter the Amount "))
 
 #if am <= 1000 :
 #    discount = am * (10/100)
