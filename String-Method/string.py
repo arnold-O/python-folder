@@ -67,7 +67,26 @@ s4 = "Hello world"
 
 
 #Relation Operators , used for comparing strings [ ==, >=, <=, >, < != ]
+#a1 = "abcde"
+#b1 = "abcdf"
+#print(a1 == b1)
+#print (b1 > a1)
 
 
+# STRING METHODS
 
+s3 = "hello, who goes you"
+#help(s3.upper)
+#s3.find("o")
+#print(s3.find("o")) #it returns the index
+#print(s3.find("z"))  #it gives -1 because it is not in the string
 
+#print(s3.find("o", 5)) # sice there is multiple "o" specify the start of the find
+#print(s3.find("o", 5, 7)) # since there is multiple "o" specify the start of the find, as well as end
+#print(s3.rfind("o", 0, 16))  #this start from the right hand side, here the index is still from 0 to whatever number , but the find start from the right hand
+
+#print(s3.count("o"))  # This gives the number times "o" occurs
+
+#print(s3.index("o"))  # This gives the number times "o" occurs # index throws exception when it does not find the substring
+#print(s3.rindex("o"))  # This gives the number times "o" occurs # rindex throws exception when it does not find the substring
+print(s3.count("you"))
