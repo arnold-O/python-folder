@@ -52,7 +52,21 @@ s4 = "Hello world"
 
 # For String we can mention str[start:end:step]
 
-s5 = "We are here again"
+#s5 = "We are here again"
+
+#print(s5[3:7:1])
+#REVERSE
+#print(s5[-1:-len(s5)-1:-1])
+
+
+# IN and NOT IN
+#If a giving string is in a set of character , they resolve to boolean
+#s6 = "fatty mama"
+#print("ay" in  s6)  == false
+#print("tty" in  s6)  == true
+
+
+#Relation Operators , used for comparing strings [ ==, >=, <=, >, < != ]
 
 
 
