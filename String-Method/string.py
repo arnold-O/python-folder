@@ -39,7 +39,7 @@
 
 #Indexing
 
-s4 = "Hello world"
+#s4 = "Hello world"
 
 #print(s4[6])
 #can also use loop and range in loop to get out the string values
@@ -75,7 +75,7 @@ s4 = "Hello world"
 
 # STRING METHODS
 
-s3 = "hello, who goes you"
+#s3 = "hello, who goes you"
 #help(s3.upper)
 #s3.find("o")
 #print(s3.find("o")) #it returns the index
@@ -89,4 +89,19 @@ s3 = "hello, who goes you"
 
 #print(s3.index("o"))  # This gives the number times "o" occurs # index throws exception when it does not find the substring
 #print(s3.rindex("o"))  # This gives the number times "o" occurs # rindex throws exception when it does not find the substring
-print(s3.count("you"))
+#rint(s3.count("you"))
+
+
+#Stiil on String Methods  [ Joining and Splitting Methods ]
+
+#Replace str.replace(old, new [ , count])
+
+str_one = 'a-b-c-d-b-e'
+str_two = str_one.replace('-', ",")
+str_three = str_one.replace('-', ",", 3)
+
+print(str_two)
+
+
+
+
