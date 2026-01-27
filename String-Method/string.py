@@ -96,11 +96,45 @@
 
 #Replace str.replace(old, new [ , count])
 
-str_one = 'a-b-c-d-b-e'
-str_two = str_one.replace('-', ",")
-str_three = str_one.replace('-', ",", 3)
+#str_one = 'a-b-c-d-b-e'
+#str_two = str_one.replace('-', ",")
+#str_three = str_one.replace('-', ",", 3)
 
-print(str_two)
+#str_four ="arnold@gmail.com"
+#str_five = str_four.replace(".com", ".edu")
+
+
+#Join str.join(iterable)
+
+#sx = 'xyz'
+#sy = "abc"
+
+#print(sx.join(sy))
+
+#join is trick if you don't understand the separator part
+
+#s1 = ["Chris", "kene", "Arnold"]
+
+#s2 = ","
+
+#s6 = s2.join(s1)
+#print(s6)
+
+#Join str.split[sep [, max split]]
+
+#s1 = "Chris kene Arnold"
+#s3 = s1.split(" ")
+#s4 = "Chris,kene,Arnold"
+#s6 = s4.split(',')
+#s6 = s4.split(',', 1)
+#print(s6)
+
+s5 = "hellofromusall"
+
+s3 = []
+for x in s5:
+    s3.append(x)
+print(s3)
 
 
 
