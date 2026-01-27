@@ -129,13 +129,17 @@
 #s6 = s4.split(',', 1)
 #print(s6)
 
-s5 = "hellofromusall"
+#5 = "hellofromusall"
 
-s3 = []
-for x in s5:
-    s3.append(x)
-print(s3)
+#3 = []
+#or x in s5:
+#   s3.append(x)
+#rint(s3)
 
+#There is splitting from the right hand side called rsplit
 
+#Exercise
 
-
+#tr1 = "afdjoke"
+#tr2 =sorted(str1) #sorted function gives us a list
+# = "".join(str2)
