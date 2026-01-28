@@ -147,12 +147,29 @@
 #Displaying Data exercise
 
 
-first_fruit = input("Enter the food/fruit you want ")
-fruit_cost = (input("Enter the price "))
+#first_fruit = input("Enter the food/fruit you want ")
+#fruit_cost = (input("Enter the price "))
 
-total_length = len(fruit_cost) + len(first_fruit)
-print(total_length)
-dots = "." * (25 - total_length)
+#total_length = len(fruit_cost) + len(first_fruit)
+#print(total_length)
+#dots = "." * (25 - total_length)
 
-try1 = first_fruit + dots + fruit_cost
-print(try1)
+#try1 = first_fruit + dots + fruit_cost
+#print(try1)
+
+
+#Confirming of two password it is safe; idea of password and confirm password
+
+pass1 = input("please enter your password ")
+pass2 = input("please enter your password again ")
+
+while pass1 != pass2:
+    print("Incorrect password, try again")
+    pass1 = input("please enter your password ")
+    pass2 = input("please enter your password again ")
+
+else:
+    print("Password is correct , Welcome ovioba ")
+
+
+
