@@ -143,3 +143,16 @@
 #tr1 = "afdjoke"
 #tr2 =sorted(str1) #sorted function gives us a list
 # = "".join(str2)
+
+#Displaying Data exercise
+
+
+first_fruit = input("Enter the food/fruit you want ")
+fruit_cost = (input("Enter the price "))
+
+total_length = len(fruit_cost) + len(first_fruit)
+print(total_length)
+dots = "." * (25 - total_length)
+
+try1 = first_fruit + dots + fruit_cost
+print(try1)
