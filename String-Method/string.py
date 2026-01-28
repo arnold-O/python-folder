@@ -160,16 +160,26 @@
 
 #Confirming of two password it is safe; idea of password and confirm password
 
-pass1 = input("please enter your password ")
-pass2 = input("please enter your password again ")
+#pass1 = input("please enter your password ")
+#pass2 = input("please enter your password again ")
 
-while pass1 != pass2:
-    print("Incorrect password, try again")
-    pass1 = input("please enter your password ")
-    pass2 = input("please enter your password again ")
+#while pass1 != pass2:
+#    print("Incorrect password, try again")
+#    pass1 = input("please enter your password ")
+#    pass2 = input("please enter your password again ")
 
-else:
-    print("Password is correct , Welcome ovioba ")
+#else:
+#    print("Password is correct , Welcome ovioba ")
+
+#Display a credit card number
+# from 1237648902355678
+#  to  *************345
+
+credit1 = (input("Enter your 16 digit Credit input "))
+value1 = credit1[12:]
+four2 = "*" * 4 + " "
+show_details = four2 * 3 + value1
+print(show_details)
 
 
 
