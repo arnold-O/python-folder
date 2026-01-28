@@ -175,11 +175,21 @@
 # from 1237648902355678
 #  to  *************345
 
-credit1 = (input("Enter your 16 digit Credit input "))
-value1 = credit1[12:]
-four2 = "*" * 4 + " "
-show_details = four2 * 3 + value1
-print(show_details)
+#credit1 = (input("Enter your 16 digit Credit input "))
+#value1 = credit1[12:]
+#four2 = "*" * 4 + " "
+#show_details = four2 * 3 + value1
+#print(show_details)
 
+#Yourname and domain name from email address
+
+address1 = input("Enter you address ")
+
+address2 = address1.split("@")
+value1 = address2[0]
+value2 = address2[1]
+
+print("This is the usernameof the address", value1)
+print("This is the domain name of the address", value2)
 
 
