@@ -215,5 +215,21 @@
 #sdate = input("Enter  date ")
 
 #sdate1 = sdate.split("/")
-#print("the day of the month is:", sdate1[0], "The month is:", sdate1[1], "And the year is:", sdate1[2]   )
+#print("the day of the month is:", sdate1[0], "The month is:", sdate1[1], "And the year is:", sdate1[2])
 
+
+
+#Anagram
+
+
+s1 = input("Enter a string ")
+s2 = input("Enter a second String ")
+
+if len(s1) != len(s2):
+    print("Not  Anagram")
+else:
+    for x in s1:
+        if x not in s2:
+            print("not Anagram")
+    else:
+        print("Anagram")
