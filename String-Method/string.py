@@ -183,13 +183,26 @@
 
 #Yourname and domain name from email address
 
-address1 = input("Enter you address ")
+#address1 = input("Enter you address ")
 
-address2 = address1.split("@")
-value1 = address2[0]
-value2 = address2[1]
+#address2 = address1.split("@")
+#value1 = address2[0]
+#value2 = address2[1]
 
-print("This is the usernameof the address", value1)
-print("This is the domain name of the address", value2)
+#print("This is the usernameof the address", value1)
+#print("This is the domain name of the address", value2)
+
+#checking as string is a palindrome
+
+s2 = input("Enter a string ")
+
+
+revers = s2[::-1]
+print(revers)
+
+if s2 == revers:
+    print("This is a palindrome")
+else:
+    print("This is not a palindrome")
 
 
