@@ -194,15 +194,26 @@
 
 #checking as string is a palindrome
 
-s2 = input("Enter a string ")
+#
+#s2 = input("Enter a string ")
+#
+#
+# revers = s2[::-1]
+# print(revers)
+#
+# if s2 == revers:
+#     print("This is a palindrome")
+# else:
+#     print("This is not a palindrome")
+
+#From a giving string you can form a palindrome even though the string is not a palindrome
 
 
-revers = s2[::-1]
-print(revers)
 
-if s2 == revers:
-    print("This is a palindrome")
-else:
-    print("This is not a palindrome")
+#Find day, month and year from a giving date
 
+#sdate = input("Enter  date ")
+
+#sdate1 = sdate.split("/")
+#print("the day of the month is:", sdate1[0], "The month is:", sdate1[1], "And the year is:", sdate1[2]   )
 
