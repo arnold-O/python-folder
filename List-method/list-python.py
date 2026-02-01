@@ -63,3 +63,29 @@ from numpy.ma.core import append
 #    print("80 is in list11")
 #else:
 #    print("80 is not in list11")
+
+
+##Travesing or Visiting Element in a list
+
+list1 = [6,6,7,8,9,1,10]
+
+#for loop
+
+#for x in list1:
+#    print(x)
+
+
+#For loop using Range
+
+#for x in range(0, len(list1)):
+#    print()
+#    print(x+1, "==", list1[x])
+
+#While loop
+
+
+
+##REverse printing, using positive or negative indeces
+
+for x in range(len(list1)-1, -1, -1):
+    print(list1[x])
