@@ -91,10 +91,16 @@ list1 = [6,6,7,8,9,1,10]
 
 #While loop
 
-#list22 = [2,22,3,33,4,44]
+list22 = [2,22,3,33,4,44]
 
 #count = 0
 
 #while count < len(list22):
 #   print(list22[count])
- #   count += 1
+#   count += 1
+
+#count = len(list22)-1
+
+#while count > 0:
+#     print(list22[count])
+#     count -= 1
