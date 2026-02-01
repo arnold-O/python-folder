@@ -86,6 +86,15 @@ list1 = [6,6,7,8,9,1,10]
 
 
 ##REverse printing, using positive or negative indeces
+#for x in range(len(list1)-1, -1, -1):
+#   print(list1[x])
 
-for x in range(len(list1)-1, -1, -1):
-    print(list1[x])
+#While loop
+
+#list22 = [2,22,3,33,4,44]
+
+#count = 0
+
+#while count < len(list22):
+#   print(list22[count])
+ #   count += 1
