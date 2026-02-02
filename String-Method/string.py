@@ -209,15 +209,12 @@
 #From a giving string you can form a palindrome even though the string is not a palindrome
 
 
-
 #Find day, month and year from a giving date
 
 #sdate = input("Enter  date ")
 
 #sdate1 = sdate.split("/")
 #print("the day of the month is:", sdate1[0], "The month is:", sdate1[1], "And the year is:", sdate1[2])
-
-
 
 #Anagram
 
