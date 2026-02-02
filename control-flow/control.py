@@ -103,23 +103,32 @@
 
 
 # Find the sum of negative and positive numbers
-total_numbers = int(input("Enter a total number of numbers "))
-psum = 0
-nsum = 0
+#total_numbers = int(input("Enter a total number of numbers "))
+#psum = 0
+#nsum = 0
 
+#while total_numbers > 0:
+#    series = int(input("Enter a series: "))
+#    total_numbers = total_numbers - 1
+#    if series > 0:
+#        psum += series
+#    else:
+#        nsum += series
+
+#print("positive sum amount to ", psum, " and negative sum amount to ", nsum)
+
+
+#Find the maximum no from a given number
+
+total_numbers = int(input("Enter a total number of numbers "))
+maxi = 0
 while total_numbers > 0:
     series = int(input("Enter a series: "))
     total_numbers = total_numbers - 1
-    if series > 0:
-        psum += series
-    else:
-        nsum += series
+    if series > maxi:
+        maxi = series
 
-print("positive sum amount to ", psum, " and negative sum amount to ", nsum)
-
-
-
-
+print(maxi)
 
 
 
