@@ -108,5 +108,29 @@ list1 = [6,6,7,8,9,1,10]
 #List methods
 ## Append Insert Extend Copy
 #append
+#fruits = ["apple", "banana"]
+#fruits.append("orange")
+
+#print(fruits)
+
+##insert()
+#fruits = ["apple", "banana"]
+#fruits.insert(1, "orange")   # insert at index 1
 
 
+
+##extend
+
+#fruits = ["apple", "banana"]
+#more_fruits = ["orange", "grape"]
+
+#fruits.extend(more_fruits)
+
+
+
+
+##copy
+fruits = ["apple", "banana"]
+new_list = fruits.copy()
+
+new_list.append("orange")
