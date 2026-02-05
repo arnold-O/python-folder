@@ -134,3 +134,14 @@ from numpy.ma.core import append
 #new_list = fruits.copy()
 
 #new_list.append("orange")
+
+
+##MORE ON LIST MTHS pop, remove, clear  ::methods to remove elements from LIst
+
+#pop :: it can  be used with index, hence he index element mentioned is remove, if no index in mention , the last index is remove
+l1 = [1,2,3,4,5]
+l1.pop()
+l1.pop(len(l1)-1)
+print(l1)
+l1.append(6)
+print(l1)
