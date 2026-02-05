@@ -67,7 +67,7 @@ from numpy.ma.core import append
 
 ##Travesing or Visiting Element in a list
 
-list1 = [6,6,7,8,9,1,10]
+#list1 = [6,6,7,8,9,1,10]
 
 #for loop
 
@@ -107,11 +107,14 @@ list1 = [6,6,7,8,9,1,10]
 
 #List methods
 ## Append Insert Extend Copy
-#append
-#fruits = ["apple", "banana"]
-#fruits.append("orange")
+#append:: This help you add one element to a list (it takes exactly one argument); we can also use slicing to achieve this
+fruits = ["apple", "banana"]
+fruits[len(fruits):len(fruits)] = ["almond"]
+fruits.append("orange")
 
-#print(fruits)
+print(fruits)
+
+
 
 ##insert()
 #fruits = ["apple", "banana"]
@@ -127,10 +130,8 @@ list1 = [6,6,7,8,9,1,10]
 #fruits.extend(more_fruits)
 
 
-
-
 ##copy
-fruits = ["apple", "banana"]
-new_list = fruits.copy()
+#fruits = ["apple", "banana"]
+#new_list = fruits.copy()
 
-new_list.append("orange")
+#new_list.append("orange")
