@@ -108,21 +108,20 @@ from numpy.ma.core import append
 #List methods
 ## Append Insert Extend Copy
 #append:: This help you add one element to a list (it takes exactly one argument); we can also use slicing to achieve this
-fruits = ["apple", "banana"]
-fruits[len(fruits):len(fruits)] = ["almond"]
-fruits.append("orange")
-
-print(fruits)
+#fruits = ["apple", "banana"]
+#fruits[len(fruits):len(fruits)] = ["almond"]
+#fruits.append("orange")
 
 
 
-##insert()
+
+##insert() :: This uses index when inserting:: his increases index and moves the orientation of the list. This is costly
 #fruits = ["apple", "banana"]
 #fruits.insert(1, "orange")   # insert at index 1
 
 
 
-##extend
+##extend :: this is for collection of Elements and this has to be iterable
 
 #fruits = ["apple", "banana"]
 #more_fruits = ["orange", "grape"]
