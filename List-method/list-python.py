@@ -129,7 +129,7 @@ from numpy.ma.core import append
 #fruits.extend(more_fruits)
 
 
-##copy
+##copy :: this creates a shallow copy of existing list
 #fruits = ["apple", "banana"]
 #new_list = fruits.copy()
 
