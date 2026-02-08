@@ -139,9 +139,22 @@ from numpy.ma.core import append
 ##MORE ON LIST MTHS pop, remove, clear  ::methods to remove elements from LIst
 
 #pop :: it can  be used with index, hence he index element mentioned is remove, if no index in mention , the last index is remove
-l1 = [1,2,3,4,5]
-l1.pop()
-l1.pop(len(l1)-1)
+# l1 = [1,2,3,4,5]
+# l1.pop()
+# l1.pop(len(l1)-1)
+# print(l1)
+# l1.append(6)
+# print(l1)
+
+#LIST COMPREHENSION :: This is used to create a list as well by using it wih an iterable
+
+l1 = [x for x in range(10)]
+
 print(l1)
-l1.append(6)
-print(l1)
+
+l2 = [x**2 for x in (2,3,4,5,6,7,8)]
+
+print(l2)
+l3 = [x for x in range(20) if x%2==0]
+
+print(l3)
