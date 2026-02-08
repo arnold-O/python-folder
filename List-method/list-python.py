@@ -161,3 +161,19 @@ print(l3)
 
 l4 = [x.lower() for x in 'abcdefgh']
 print(l4)
+
+#NESTED LIST
+#How to access items
+#You use two indexes: one for the outer list and one for the inner list.
+
+#nested_list[0][1] means:
+#[0] → first inner list
+#[1] → second item in that list
+students = [
+    ["Anna", 15],
+    ["Ben", 16],
+    ["Cara", 14]
+]
+
+print(students[1][0])  # Ben
+print(students[2][1])  # 14
