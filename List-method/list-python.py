@@ -158,3 +158,6 @@ print(l2)
 l3 = [x for x in range(20) if x%2==0]
 
 print(l3)
+
+l4 = [x.lower() for x in 'abcdefgh']
+print(l4)
