@@ -148,19 +148,19 @@ from numpy.ma.core import append
 
 #LIST COMPREHENSION :: This is used to create a list as well by using it wih an iterable
 
-l1 = [x for x in range(10)]
-
-print(l1)
-
-l2 = [x**2 for x in (2,3,4,5,6,7,8)]
-
-print(l2)
-l3 = [x for x in range(20) if x%2==0]
-
-print(l3)
-
-l4 = [x.lower() for x in 'abcdefgh']
-print(l4)
+# l1 = [x for x in range(10)]
+#
+# print(l1)
+#
+# l2 = [x**2 for x in (2,3,4,5,6,7,8)]
+#
+# print(l2)
+# l3 = [x for x in range(20) if x%2==0]
+#
+# print(l3)
+#
+# l4 = [x.lower() for x in 'abcdefgh']
+# print(l4)
 
 #NESTED LIST
 #How to access items
@@ -169,29 +169,39 @@ print(l4)
 #nested_list[0][1] means:
 #[0] → first inner list
 #[1] → second item in that list
-students = [
-    ["Anna", 15],
-    ["Ben", 16],
-    ["Cara", 14]
-]
-
-print(students[1][0])  # Ben
-print(students[2][1])  # 14
+# students = [
+#     ["Anna", 15],
+#     ["Ben", 16],
+#     ["Cara", 14]
+# ]
+#
+# print(students[1][0])  # Ben
+# print(students[2][1])  # 14
 
 #Using for loops to transverse nested list
 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+#
+# for row in matrix:
+#     for number in row:
+#         print(number)
+#
+# #With INdexes and range
+#
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[i])):
+#         print(matrix[i][j])
 
-for row in matrix:
-    for number in row:
-        print(number)
 
-#With INdexes and range
+#List Examples
 
-for i in range(len(matrix)):
-    for j in range(len(matrix[i])):
-        print(matrix[i][j])
+get_values = [int(x) for x in input("Enter numbers separated by space: ").split()]
+a = 0
+for x in get_values:
+    a+=x
+
+print(a)
