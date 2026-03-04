@@ -24,13 +24,13 @@
 
 # examples
 
-b = 12
-a =  5
-
-if a<=b:
-     print("a is less than b")
-else:
-     print("b is less than a")
+# b = 12
+# a =  5
+#
+# if a<=b:
+#      print("a is less than b")
+# else:
+#      print("b is less than a")
 
 
 #c = int(input("Enter a number: "))

@@ -1,0 +1,17 @@
+###What are functions
+def fun_name(par1, par2, par3):
+    result =  par1 + par2 + par3
+    return result
+
+
+prv = fun_name(3, 4, 6)
+
+#The copy of the values are not created when pass to the function, same values are referenced
+
+x,y,z = 2, 3, 5
+
+#If x,y,z are passed into the function with par1, par2 and par3 as parameters , the values, in terms of id will not change
+
+prv2 = fun_name(x,y,z)
+
+print(prv2)
