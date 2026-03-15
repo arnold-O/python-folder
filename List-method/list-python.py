@@ -199,9 +199,9 @@ from numpy.ma.core import append
 
 #List Examples
 
-get_values = [int(x) for x in input("Enter numbers separated by space: ").split()]
-a = 0
-for x in get_values:
-    a+=x
+# get_values = [int(x) for x in input("Enter numbers separated by space: ").split()]
+# a = 0
+# for x in get_values:
+#     a+=x
+# print(a)
 
-print(a)
