@@ -63,14 +63,24 @@ class Test1:
     def area(self):
         return (self.length * self.breadth) * self.height
 
+    @classmethod
     def classCount(cls):
         print(cls.count)
 
-r1 = Test1(1,3,6)
-r2 = Test1(3,5,6)
-r3 = Test1(6,7,8)
-r2.classCount()
+    @staticmethod
+    def issquare(len , bre):
+        return len == bre
 
+# r1 = Test1(1,3,6)
+# r2 = Test1(3,5,6)
+# r3 = Test1(6,7,8)
+# r2.classCount()
+
+# You can call static method with object created or name of class
+
+r5 = Test1(8,9,10)
+# print(r5.issquare(9,7))
+print(Test1.issquare(2,2))
 
 
 
