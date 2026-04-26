@@ -50,26 +50,26 @@
 
 ##  CLASS VARIABLE and CLASS METHOD
 
-class Test1:
-    count = 0
-    def __init__(self, l, b, h):
-        self.length = l
-        self.breadth = b
-        self.height = h
-        Test1.count += 1
-
-    def perimeter(self):
-        return 2 * self.length + self.breadth + self.height
-    def area(self):
-        return (self.length * self.breadth) * self.height
-
-    @classmethod
-    def classCount(cls):
-        print(cls.count)
-
-    @staticmethod
-    def issquare(len , bre):
-        return len == bre
+# class Test1:
+#     count = 0
+#     def __init__(self, l, b, h):
+#         self.length = l
+    #     self.breadth = b
+    #     self.height = h
+    #     Test1.count += 1
+    #
+    # def perimeter(self):
+    #     return 2 * self.length + self.breadth + self.height
+    # def area(self):
+    #     return (self.length * self.breadth) * self.height
+    #
+    # @classmethod
+    # def classCount(cls):
+    #     print(cls.count)
+    #
+    # @staticmethod
+    # def issquare(len , bre):
+    #     return len == bre
 
 # r1 = Test1(1,3,6)
 # r2 = Test1(3,5,6)
@@ -78,11 +78,27 @@ class Test1:
 
 # You can call static method with object created or name of class
 
-r5 = Test1(8,9,10)
+# r5 = Test1(8,9,10)
 # print(r5.issquare(9,7))
-print(Test1.issquare(2,2))
+# print(Test1.issquare(2,2))
+
+#ACESSORS and MUTATORS
 
 
+class Test2:
+    def __init__(self, l, b, h):
+        self.length = l
+        self.breadth = b
+        self.height = h
+    def setLength(self, l):
+        self.length = l
+    def setBreadth(self, b):
+        self.breadth = b
+    def getlength(self):
+        return self.length
+    def getbreadth(self):
+        return self.breadth
 
+r4 = Test2(8,9,10)
 
-
+print(r4.getlength())
