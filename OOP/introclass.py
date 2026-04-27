@@ -83,22 +83,43 @@
 # print(Test1.issquare(2,2))
 
 #ACESSORS and MUTATORS
+# class Test2:
+#     def __init__(self, l, b, h):
+#         self.length = l
+#         self.breadth = b
+#         self.height = h
+#     def setLength(self, l):
+#         self.length = l
+#     def setBreadth(self, b):
+#         self.breadth = b
+#     def getlength(self):
+#         return self.length
+#     def getbreadth(self):
+#         return self.breadth
+#
+# r4 = Test2(8,9,10)
+#
+# print(r4.getlength())
 
 
-class Test2:
-    def __init__(self, l, b, h):
-        self.length = l
-        self.breadth = b
-        self.height = h
-    def setLength(self, l):
-        self.length = l
-    def setBreadth(self, b):
-        self.breadth = b
-    def getlength(self):
-        return self.length
-    def getbreadth(self):
-        return self.breadth
+## Inheritance Examples
 
-r4 = Test2(8,9,10)
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-print(r4.getlength())
+class Teacher(Student):
+    def __init__(self,rank, name, age):
+        self.rank = rank
+        super().__init__(name, age)
+
+
+    def print_name(self):
+        return f"my name is {self.name}, i'm {self.age} years old and my rank is {self.rank}"
+        
+
+
+r3 = Teacher('R3', "Ugochukwu", 20)
+
+print(r3.print_name())
