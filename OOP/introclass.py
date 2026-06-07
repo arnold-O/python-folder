@@ -106,7 +106,7 @@
 
 class Student:
     def __init__(self, name, age):
-        self.name = name
+        # self.name = name
         self.age = age
 
 class Teacher(Student):
