@@ -30,3 +30,13 @@
 # print(add_def(3, [1,4,5,6,7]))
 # print(add_def(4))
 
+
+
+def new_fun(para1, para2, para3):
+    return para1+para2+para3
+
+
+
+values1 = new_fun(1,2,3)
+print(values1)
+

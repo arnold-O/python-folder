@@ -39,8 +39,6 @@ def shipment_id():
         "date": "Friday the 13th of Someday 2026"
     }
 
-
-
 @app.get("/scalar", include_in_schema=False)
 def get_scalardocs():
     return get_scalar_api_reference(

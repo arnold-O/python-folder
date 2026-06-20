@@ -39,21 +39,21 @@ data4 = np.array([1,2,3,4,5])
 #print(data4[:])
 
 #RESHAPED AN ARRAY
-
-data5 = np.array([6,7,8,9,10,11])
-print(data5.reshape(3,2))
+#
+# data5 = np.array([6,7,8,9,10,11])
+# print(data5.reshape(3,2))
 
 
 #EXERCISE 1 Generate array for basic mathematical exercises
 
-arr1 = np.arange(1,6)
-arr2 = np.arange(6, 11)
-
-#print("ADD", arr1 + arr2)
-#print("SUB", arr1 - arr2)
-#print("MUL", arr1 * arr2)
-
-#EXERCISE 2 Generate A 3X3 matric and perform mathematical exercises
-
-arr3 = np.array([[1,2,3,], [4,5,6], [7,8,9]])
-print(arr3)
+# arr1 = np.arange(1,6)
+# arr2 = np.arange(6, 11)
+#
+# #print("ADD", arr1 + arr2)
+# #print("SUB", arr1 - arr2)
+# #print("MUL", arr1 * arr2)
+#
+# #EXERCISE 2 Generate A 3X3 matric and perform mathematical exercises
+#
+# arr3 = np.array([[1,2,3,], [4,5,6], [7,8,9]])
+# print(arr3)
